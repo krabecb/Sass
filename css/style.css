@@ -1,0 +1,60 @@
+body {
+  background-color: #1D3640;
+  font: "Lato", sans-serif;
+  color: whitesmoke;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+article {
+  background-color: #266573;
+  width: 47vw;
+  margin: 0;
+}
+article img {
+  width: 100%;
+}
+article h2 {
+  background-color: black;
+  color: #F2AE30;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 0.3em;
+}
+article p {
+  padding: 0.5em;
+}
+
+aside, footer {
+  background-color: #F2B263;
+  color: black;
+  width: 500px;
+  padding: 5px;
+}
+aside p, footer p, aside h3, footer h3 {
+  width: 50%;
+}
+
+footer {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+footer a {
+  text-decoration: none;
+  color: #266573;
+}
+
+/*# sourceMappingURL=style.css.map */
