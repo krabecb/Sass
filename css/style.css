@@ -1,6 +1,6 @@
 body {
   background-color: #1D3640;
-  font: "Lato", sans-serif;
+  font-family: "Lato", sans-serif;
   color: whitesmoke;
 }
 
@@ -19,6 +19,7 @@ main {
 article {
   background-color: #266573;
   width: 47vw;
+  border-radius: 8px 0 0 8px;
   margin: 0;
 }
 article img {
@@ -40,6 +41,7 @@ aside, footer {
   color: black;
   width: 500px;
   padding: 5px;
+  border-radius: 0 8px 8px 0;
 }
 aside p, footer p, aside h3, footer h3 {
   width: 50%;
